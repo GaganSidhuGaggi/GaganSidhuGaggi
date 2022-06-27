@@ -1,0 +1,289 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: azure;
+}
+.container{
+}
+
+.head{
+    border-radius: 10px;
+    background-color: rgb(114, 111, 107);
+    margin: 6%;
+    display: flex;
+    justify-content: center;   
+}
+
+#image{
+    border-radius: 14px;
+    margin: 3%;
+    width: 15%;
+    height: 15%;
+}
+
+#disc{
+    margin: 3%;
+    margin-left:0 ;
+    font-size: 1.4em;
+    height:260px;
+}
+
+#social{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    margin-left:18% ;
+    font-size: 1.4em;
+    height:260px;
+}
+
+.links{
+    width: 100%;
+    border-radius: 7px;
+    background-color: blue;
+    padding:5px;
+    margin: 8%;
+}
+
+.links:hover{
+    font-size: 1.07em;
+    border-radius: 9px;
+    background-color: blue;
+    padding: 8px;
+}
+
+#social a{
+    text-decoration: none;
+    color: white;
+}
+
+#tio1{
+    display: flex;
+}
+
+#tiom{
+    margin: 3%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#fbox{
+    display: none;
+    padding-top:13px ;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    border-radius: 7px;
+    padding: 10px;
+    margin: 3%;
+    margin-bottom: 0;
+    width: 80%;
+}
+
+#sbtn{
+    cursor: pointer;
+    width: 40%;
+    margin: 3%;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(56, 56, 58);
+    color: white;
+    font-size: 1.2em;
+}
+
+#cont{
+    cursor: pointer;
+    width: 40%;
+    margin-top: 2%;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(221, 221, 236);
+    color: rgb(17, 17, 17);
+}
+
+#calcbtn{
+    cursor: pointer;
+    width: 96%;
+    margin: 2%;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(221, 221, 236);
+    color: rgb(17, 17, 17);
+
+}
+
+#calcbox{
+    background-color:gainsboro;
+    border: 5px solid black;
+    border-radius: 7px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#clacbar{
+    all:unset;
+    border-radius: 2px;
+    padding-left: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 245px;
+    margin: 3px;
+    background-color: white;
+    border: 1px solid rgb(160, 157, 157);
+}
+
+#frm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:310px; 
+}
+.keybtn{
+    font-size: 1.2em;
+    width: 70px;
+    padding: 10px;
+    margin: 3px;
+}
+
+#keypad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 304px;
+}
+#cbtn{
+    display: flex;
+    width: 304px;
+    flex-wrap: wrap;
+}
+
+#keybtn1{
+    order: 1;
+}
+
+#keybtn2{
+    order: 2;    
+}
+
+#keybtn3{
+    order: 3;
+}
+
+#keybtn4{
+    order: 5;
+}
+
+#keybtn5{
+    order: 6;
+    
+}
+
+#keybtn6{
+    order: 7;
+}
+
+#keybtn7{
+    order: 9;
+}
+
+#keybtn8{
+    order: 10;
+}
+
+#keybtn9{
+    order: 11;
+    
+}
+
+#keybtn10{
+    order: 14;
+    
+}
+
+#keybtn11{
+    order: 8;
+}
+
+#keybtn12{
+    order: 12;
+    
+}
+
+#keybtn13{
+    order: 16;
+}
+
+#keybtn14{
+    order: 13;
+}
+
+#keybtn15{
+    order: 4;
+    
+}
+
+#keybtn16{
+    order: 15;
+}
+
+
+#bbtn{
+    padding: 2px;
+}
+
+#bckarr{
+    width: 28px;
+}
+
+#date{
+    font-size: 3em;
+    color: white;
+}
+
+
+
+#pointimg{
+    position: absolute;
+    left: 1000px;
+}
+
+#keyimg{
+    left: 40%;
+    position: absolute;
+    width: 17%;
+}
+
+@media screen and (max-width: 970px) {
+    body{width:100%}
+    #social{margin-left:0% ;}
+  }
+
+@media screen and (max-width: 840px) {
+    #image{display: flex; align-self:center; justify-content: center; zoom: width:35%;}
+    #tio1{flex-direction: column;}
+    .head{flex-direction: column;}
+    #tiom{margin-left: 3%;}
+    #cont{width: 100%;}
+    #social{flex-direction:row; margin:0%; height:1%; flex-wrap:wrap;}
+    .links{margin: 1.4%; width: 90px;}
+    #disc{margin-bottom: 0%;}
+  }
+
+  @media screen and (max-width: 360px) {
+    #social{padding: 10%;}
+}
